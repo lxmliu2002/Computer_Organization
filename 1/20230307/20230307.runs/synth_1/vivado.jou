@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Mar 21 19:36:25 2023
-# Process ID: 27632
+# Start of session at: Tue Mar 21 22:46:30 2023
+# Process ID: 23604
 # Current directory: F:/Vivado Project/20230307/20230307.runs/synth_1
 # Command line: vivado.exe -log adder_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder_display.tcl
 # Log file: F:/Vivado Project/20230307/20230307.runs/synth_1/adder_display.vds

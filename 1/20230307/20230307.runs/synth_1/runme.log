@@ -14,23 +14,20 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2472 
+INFO: Helper process launched with PID 24264 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 339.352 ; gain = 68.977
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 339.102 ; gain = 80.289
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'adder_display' [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder_display.v:23]
 INFO: [Synth 8-6157] synthesizing module 'adder32' [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:23]
 INFO: [Synth 8-6157] synthesizing module 'adder8' [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder8.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'adder8' (1#1) [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder8.v:23]
-WARNING: [Synth 8-3848] Net op1 in module/entity adder32 does not have driver. [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:30]
-WARNING: [Synth 8-3848] Net op2 in module/entity adder32 does not have driver. [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:30]
-WARNING: [Synth 8-3848] Net op3 in module/entity adder32 does not have driver. [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:31]
 INFO: [Synth 8-6155] done synthesizing module 'adder32' (2#1) [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:23]
-INFO: [Synth 8-6157] synthesizing module 'lcd_module' [F:/Vivado Project/20230307/20230307.runs/synth_1/.Xil/Vivado-27632-lxmliu2002/realtime/lcd_module_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'lcd_module' (3#1) [F:/Vivado Project/20230307/20230307.runs/synth_1/.Xil/Vivado-27632-lxmliu2002/realtime/lcd_module_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'lcd_module' [F:/Vivado Project/20230307/20230307.runs/synth_1/.Xil/Vivado-23604-lxmliu2002/realtime/lcd_module_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lcd_module' (3#1) [F:/Vivado Project/20230307/20230307.runs/synth_1/.Xil/Vivado-23604-lxmliu2002/realtime/lcd_module_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'adder_display' (4#1) [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder_display.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 395.219 ; gain = 124.844
+Finished RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 395.035 ; gain = 136.223
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -39,79 +36,14 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:ina[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inb[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a7_0:inc to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:35]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:ina[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a15_8:inb[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:36]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:ina[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a23_16:inb[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:37]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:ina[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[7] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[6] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[5] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[4] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[3] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[2] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[1] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
-WARNING: [Synth 8-3295] tying undriven pin a31_24:inb[0] to constant 0 [F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v:38]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 395.219 ; gain = 124.844
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 395.035 ; gain = 136.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 395.219 ; gain = 124.844
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 395.035 ; gain = 136.223
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a200tfbg676-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -122,35 +54,35 @@ Parsing XDC File [F:/Vivado Project/20230307/20230307.srcs/constrs_1/new/adder.x
 Finished Parsing XDC File [F:/Vivado Project/20230307/20230307.srcs/constrs_1/new/adder.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Vivado Project/20230307/20230307.srcs/constrs_1/new/adder.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/adder_display_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/adder_display_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.016 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.016 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.191 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 764.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 764.016 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 764.016 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 764.191 ; gain = 493.816
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 764.016 ; gain = 505.203
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 764.191 ; gain = 493.816
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 764.016 ; gain = 505.203
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 764.191 ; gain = 493.816
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 764.016 ; gain = 505.203
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "display_valid" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "display_name" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 764.191 ; gain = 493.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 764.016 ; gain = 505.203
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -163,7 +95,6 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input     33 Bit       Adders := 1     
 	   3 Input      9 Bit       Adders := 4     
 +---Registers : 
 	               40 Bit    Registers := 1     
@@ -200,10 +131,6 @@ Module adder8
 Detailed RTL Component Info : 
 +---Adders : 
 	   3 Input      9 Bit       Adders := 1     
-Module adder32 
-Detailed RTL Component Info : 
-+---Adders : 
-	   3 Input     33 Bit       Adders := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -255,7 +182,7 @@ INFO: [Synth 8-3886] merging instance 'display_name_reg[34]' (FD) to 'display_na
 INFO: [Synth 8-3886] merging instance 'display_name_reg[35]' (FD) to 'display_name_reg[37]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\display_name_reg[37] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 764.191 ; gain = 493.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 764.016 ; gain = 505.203
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -267,13 +194,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 767.684 ; gain = 497.309
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 772.410 ; gain = 513.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 767.965 ; gain = 497.590
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 772.484 ; gain = 513.672
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -286,7 +213,7 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-3886] merging instance 'display_name_reg[38]' (FDR) to 'display_valid_reg'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -310,7 +237,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -323,7 +250,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -335,25 +262,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -372,7 +299,7 @@ Report Cell Usage:
 +------+-----------+------+
 |1     |lcd_module |     1|
 |2     |BUFG       |     1|
-|3     |CARRY4     |     9|
+|3     |CARRY4     |    12|
 |4     |LUT1       |     2|
 |5     |LUT2       |    35|
 |6     |LUT4       |     1|
@@ -384,34 +311,38 @@ Report Cell Usage:
 +------+-----------+------+
 
 Report Instance Areas: 
-+------+---------------+--------+------+
-|      |Instance       |Module  |Cells |
-+------+---------------+--------+------+
-|1     |top            |        |   244|
-|2     |  adder_module |adder32 |    41|
-+------+---------------+--------+------+
++------+---------------+---------+------+
+|      |Instance       |Module   |Cells |
++------+---------------+---------+------+
+|1     |top            |         |   247|
+|2     |  adder_module |adder32  |    44|
+|3     |    a15_8      |adder8   |    11|
+|4     |    a23_16     |adder8_0 |    11|
+|5     |    a31_24     |adder8_1 |    11|
+|6     |    a7_0       |adder8_2 |    11|
++------+---------------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 777.840 ; gain = 138.492
-Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 777.840 ; gain = 507.465
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 782.871 ; gain = 155.078
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 782.871 ; gain = 524.059
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 792.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 796.660 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-57 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+57 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 792.605 ; gain = 522.230
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 792.605 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 796.660 ; gain = 537.848
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 796.660 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'F:/Vivado Project/20230307/20230307.runs/synth_1/adder_display.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file adder_display_utilization_synth.rpt -pb adder_display_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 21 19:36:46 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 21 22:46:50 2023...

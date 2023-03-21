@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado Project/20230307/20230307.srcs/sources_1/new/adder8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado Project/20230307/20230307.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

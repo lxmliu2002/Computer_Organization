@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Tue Mar 21 19:36:46 2023
+| Date         : Tue Mar 21 22:46:50 2023
 | Host         : lxmliu2002 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file adder_display_utilization_synth.rpt -pb adder_display_utilization_synth.pb
 | Design       : adder_display
@@ -152,8 +152,8 @@ Table of Contents
 | FDRE     |  101 |        Flop & Latch |
 | LUT2     |   35 |                 LUT |
 | LUT5     |   32 |                 LUT |
+| CARRY4   |   12 |          CarryLogic |
 | OBUF     |    9 |                  IO |
-| CARRY4   |    9 |          CarryLogic |
 | IBUF     |    4 |                  IO |
 | LUT6     |    3 |                 LUT |
 | LUT1     |    2 |                 LUT |

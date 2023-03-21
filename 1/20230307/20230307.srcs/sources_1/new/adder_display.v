@@ -53,11 +53,11 @@ module adder_display(
     wire [31:0] adder_result  ;
     wire        adder_cout;
     adder32 adder_module(
-        .ina1(adder_operand1),
-        .inb1(adder_operand2),
-        .inc1     (adder_cin     ),
-        .sum1  (adder_result  ),
-        .outc1    (adder_cout    )
+        .op1(adder_operand1),
+        .op2(adder_operand2),
+        .op3     (adder_cin     ),
+        .sum  (adder_result  ),
+        .outc    (adder_cout    )
     );
     assign adder_cin = sw_cin;
     assign led_cout  = adder_cout;

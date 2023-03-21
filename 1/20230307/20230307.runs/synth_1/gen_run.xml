@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1679398583">
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1679409988">
   <File Type="PA-TCL" Name="adder_display.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="adder_display_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="adder_display_reports.tcl"/>
